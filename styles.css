@@ -1,0 +1,102 @@
+.sprite{
+    width:150px;
+    height:150px;
+    border: 10px solid seagreen;
+    background-color: white;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:10px; 
+}
+.info{
+    background-color: lightblue;
+    border: 10px solid seagreen;
+    border-radius:20px;
+    height:200px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:20px; 
+}
+
+.electric{
+    background-color: yellow;
+}
+.fire{
+    background-color: red;
+}
+.water{
+    background-color: blue;
+}
+.grass{
+    background-color: green;
+}
+.ground{
+    background-color: maroon;
+}
+.rock{
+    background-color: brown;
+}
+.fairy{
+    background-color: pink;
+}
+.psychic{
+    background-color: indigo;
+}
+.poison{
+    background: purple;
+}
+.flying{
+    background-color: skyblue;
+}
+.dark{
+    background-color: black
+}
+.steel{
+    background-color: slategrey;
+}
+.fighting{
+    background-color: orange;
+}
+.ghost{
+    background-color: plum;
+}
+.dragon{
+    background-color: gold;
+}
+
+.pokedex{
+    width:250px;
+    height:600px;
+    background-color: red;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid darkred;
+    border-radius: 30px;
+    justify-content: space-around;
+    position: relative;
+}
+button{
+    background-color: seagreen;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+input {
+    border:3px solid seagreen;
+    border-radius: 3px;
+    width: 70%;
+    height: 30px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
